@@ -1,0 +1,165 @@
+uuid: 1f6f75d7-c418-4341-af74-63fac81ef795
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.basic_page
+    - node.type.book
+  module:
+    - action
+    - admin_toolbar_search
+    - announcements_feed
+    - ban
+    - block
+    - block_content
+    - book
+    - comment
+    - config
+    - contact
+    - content_moderation
+    - contextual
+    - field_ui
+    - file
+    - filter
+    - image
+    - language
+    - layout_builder
+    - media
+    - node
+    - path
+    - responsive_image
+    - search
+    - system
+    - taxonomy
+    - toolbar
+    - update
+    - views_ui
+    - workflows
+id: developer
+label: Developer
+weight: 2
+is_admin: null
+permissions:
+  - 'access administration pages'
+  - 'access announcements'
+  - 'access block library'
+  - 'access comments'
+  - 'access content'
+  - 'access content overview'
+  - 'access contextual links'
+  - 'access files overview'
+  - 'access media overview'
+  - 'access printer-friendly version'
+  - 'access site in maintenance mode'
+  - 'access site reports'
+  - 'access site-wide contact form'
+  - 'access taxonomy overview'
+  - 'access toolbar'
+  - 'access user contact forms'
+  - 'access user profiles'
+  - 'add content to books'
+  - 'administer account settings'
+  - 'administer actions'
+  - 'administer block content'
+  - 'administer block types'
+  - 'administer block_content display'
+  - 'administer block_content fields'
+  - 'administer block_content form display'
+  - 'administer blocks'
+  - 'administer book outlines'
+  - 'administer comment display'
+  - 'administer comment fields'
+  - 'administer comment form display'
+  - 'administer comment types'
+  - 'administer comments'
+  - 'administer contact forms'
+  - 'administer contact_message display'
+  - 'administer contact_message fields'
+  - 'administer contact_message form display'
+  - 'administer content types'
+  - 'administer display modes'
+  - 'administer filters'
+  - 'administer image styles'
+  - 'administer languages'
+  - 'administer media'
+  - 'administer media display'
+  - 'administer media fields'
+  - 'administer media form display'
+  - 'administer media types'
+  - 'administer menu'
+  - 'administer modules'
+  - 'administer node display'
+  - 'administer node fields'
+  - 'administer node form display'
+  - 'administer nodes'
+  - 'administer permissions'
+  - 'administer responsive images'
+  - 'administer search'
+  - 'administer site configuration'
+  - 'administer software updates'
+  - 'administer taxonomy'
+  - 'administer taxonomy_term display'
+  - 'administer taxonomy_term fields'
+  - 'administer taxonomy_term form display'
+  - 'administer themes'
+  - 'administer url aliases'
+  - 'administer user display'
+  - 'administer user fields'
+  - 'administer user form display'
+  - 'administer users'
+  - 'administer views'
+  - 'administer workflows'
+  - 'ban IP addresses'
+  - 'bypass node access'
+  - 'cancel account'
+  - 'change own username'
+  - 'configure any layout'
+  - 'create and edit custom blocks'
+  - 'create basic_page content'
+  - 'create book content'
+  - 'create media'
+  - 'create new books'
+  - 'create url aliases'
+  - 'delete all revisions'
+  - 'delete any basic_page content'
+  - 'delete any book content'
+  - 'delete any file'
+  - 'delete any media'
+  - 'delete basic_page revisions'
+  - 'delete book revisions'
+  - 'delete media'
+  - 'delete own basic_page content'
+  - 'delete own book content'
+  - 'delete own files'
+  - 'edit any basic_page content'
+  - 'edit any book content'
+  - 'edit own basic_page content'
+  - 'edit own book content'
+  - 'edit own comments'
+  - 'export configuration'
+  - 'import configuration'
+  - 'link to any page'
+  - 'post comments'
+  - 'revert all revisions'
+  - 'revert basic_page revisions'
+  - 'revert book revisions'
+  - 'search content'
+  - 'select account cancellation method'
+  - 'skip comment approval'
+  - 'synchronize configuration'
+  - 'update any media'
+  - 'update media'
+  - 'use admin toolbar search'
+  - 'use advanced search'
+  - 'view all media revisions'
+  - 'view all revisions'
+  - 'view any unpublished content'
+  - 'view basic_page revisions'
+  - 'view book revisions'
+  - 'view latest version'
+  - 'view media'
+  - 'view own unpublished content'
+  - 'view own unpublished media'
+  - 'view the administration theme'
+  - 'view update notifications'
+  - 'view user email addresses'

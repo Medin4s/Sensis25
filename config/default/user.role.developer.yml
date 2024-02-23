@@ -8,7 +8,6 @@ dependencies:
   module:
     - action
     - admin_toolbar_search
-    - announcements_feed
     - ban
     - block
     - block_content
@@ -41,7 +40,6 @@ weight: 2
 is_admin: null
 permissions:
   - 'access administration pages'
-  - 'access announcements'
   - 'access block library'
   - 'access comments'
   - 'access content'

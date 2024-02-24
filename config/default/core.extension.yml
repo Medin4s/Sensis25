@@ -9,8 +9,6 @@ module:
   automated_cron: 0
   ban: 0
   big_pipe: 0
-  blazy: 0
-  blazy_ui: 0
   block: 0
   block_content: 0
   book: 0
@@ -18,23 +16,17 @@ module:
   ckeditor5: 0
   comment: 0
   config: 0
-  config_ignore: 0
-  config_translation: 0
   contact: 0
   content_moderation: 0
   contextual: 0
-  ctools: 0
   datetime: 0
   datetime_range: 0
   dblog: 0
-  devel: 0
-  devel_generate: 0
   dynamic_page_cache: 0
   editor: 0
   field: 0
   field_ui: 0
   file: 0
-  file_delete: 0
   filter: 0
   history: 0
   image: 0
@@ -43,12 +35,8 @@ module:
   layout_builder: 0
   layout_discovery: 0
   link: 0
-  locale: 0
-  mail_login: 0
   media: 0
   media_library: 0
-  menu_link_content: 0
-  menu_ui: 0
   mysql: 0
   node: 0
   options: 0
@@ -56,24 +44,18 @@ module:
   path: 0
   path_alias: 0
   pgsql: 0
-  phpass: 0
   responsive_image: 0
   search: 0
-  serialization: 0
   shortcut: 0
-  syslog: 0
   system: 0
   taxonomy: 0
   telephone: 0
   text: 0
   toolbar: 0
-  twig_vardumper: 0
   update: 0
   user: 0
   views_ui: 0
   workflows: 0
-  forum: 1
-  content_translation: 10
   views: 10
   minimal: 1000
 theme:

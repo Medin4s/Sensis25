@@ -1,0 +1,22 @@
+uuid: bc97ee78-6c94-4822-a1c6-00d5ca5de0ed
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tex_block_homepage
+    - node.type.home_page
+  module:
+    - text
+id: node.home_page.field_tex_block_homepage
+field_name: field_tex_block_homepage
+entity_type: node
+bundle: home_page
+label: 'Tex block homepage'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

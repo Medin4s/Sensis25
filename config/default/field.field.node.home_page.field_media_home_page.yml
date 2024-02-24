@@ -1,0 +1,27 @@
+uuid: 948f761f-d6fe-44d3-95c2-92ae586a0f5c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_media_home_page
+    - node.type.home_page
+  module:
+    - file
+id: node.home_page.field_media_home_page
+field_name: field_media_home_page
+entity_type: node
+bundle: home_page
+label: 'Media Home page'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: txt
+  max_filesize: '200'
+  description_field: false
+field_type: file

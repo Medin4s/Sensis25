@@ -1,0 +1,21 @@
+uuid: 82d04f73-3dac-46da-84cc-7f7d899610f7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_boolean_home_page
+    - node.type.home_page
+id: node.home_page.field_boolean_home_page
+field_name: field_boolean_home_page
+entity_type: node
+bundle: home_page
+label: 'Boolean Home page'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

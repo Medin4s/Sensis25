@@ -1,16 +1,18 @@
-uuid: 547cc3e0-4e39-46c9-b49e-66419c40efe0
+uuid: f7cfcf06-0a3d-4cd3-ba8b-ded8e686855e
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.body
-    - node.type.home_page
+    - node.type.forum
   module:
     - text
-id: node.home_page.body
+_core:
+  default_config_hash: XcVB5fUh7zjjpzJ0GEvGPrED-JGGCXuKHLWZ6y9Spuo
+id: node.forum.body
 field_name: body
 entity_type: node
-bundle: home_page
+bundle: forum
 label: Body
 description: ''
 required: false

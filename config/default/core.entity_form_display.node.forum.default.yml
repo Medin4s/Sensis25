@@ -1,30 +1,26 @@
-uuid: 4181b027-5ba0-4757-a039-0d9db8220f3c
+uuid: 4e2c434c-f35e-4fce-bc25-f03f444dd8c1
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.home_page.body
-    - field.field.node.home_page.field_boolean_home_page
-    - field.field.node.home_page.field_date_home_page
-    - field.field.node.home_page.field_link_home_page
-    - field.field.node.home_page.field_list_home_page
-    - field.field.node.home_page.field_media_home_page
-    - field.field.node.home_page.field_tex_block_homepage
-    - node.type.home_page
+    - field.field.node.forum.body
+    - field.field.node.forum.comment_forum
+    - field.field.node.forum.taxonomy_forums
+    - node.type.forum
   module:
-    - datetime_range
-    - file
-    - link
+    - comment
     - path
     - text
-id: node.home_page.default
+_core:
+  default_config_hash: diOVWc36Ch9NdYFiQ--GTypW8ibCB37SHdkkqLCHP8g
+id: node.forum.default
 targetEntityType: node
-bundle: home_page
+bundle: forum
 mode: default
 content:
   body:
     type: text_textarea_with_summary
-    weight: 121
+    weight: 27
     region: content
     settings:
       rows: 9
@@ -32,53 +28,17 @@ content:
       placeholder: ''
       show_summary: false
     third_party_settings: {  }
+  comment_forum:
+    type: comment_default
+    weight: 20
+    region: content
+    settings: {  }
+    third_party_settings: {  }
   created:
     type: datetime_timestamp
     weight: 10
     region: content
     settings: {  }
-    third_party_settings: {  }
-  field_boolean_home_page:
-    type: boolean_checkbox
-    weight: 127
-    region: content
-    settings:
-      display_label: true
-    third_party_settings: {  }
-  field_date_home_page:
-    type: daterange_default
-    weight: 125
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  field_link_home_page:
-    type: link_default
-    weight: 126
-    region: content
-    settings:
-      placeholder_url: ''
-      placeholder_title: ''
-    third_party_settings: {  }
-  field_list_home_page:
-    type: options_select
-    weight: 124
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  field_media_home_page:
-    type: file_generic
-    weight: 123
-    region: content
-    settings:
-      progress_indicator: throbber
-    third_party_settings: {  }
-  field_tex_block_homepage:
-    type: text_textarea
-    weight: 122
-    region: content
-    settings:
-      rows: 5
-      placeholder: ''
     third_party_settings: {  }
   langcode:
     type: language_select
@@ -113,6 +73,12 @@ content:
     region: content
     settings:
       display_label: true
+    third_party_settings: {  }
+  taxonomy_forums:
+    type: options_select
+    weight: 26
+    region: content
+    settings: {  }
     third_party_settings: {  }
   title:
     type: string_textfield

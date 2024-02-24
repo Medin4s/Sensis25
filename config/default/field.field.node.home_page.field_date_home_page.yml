@@ -1,0 +1,21 @@
+uuid: fbd24e53-ce38-46a8-9460-32395824e1e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date_home_page
+    - node.type.home_page
+  module:
+    - datetime
+id: node.home_page.field_date_home_page
+field_name: field_date_home_page
+entity_type: node
+bundle: home_page
+label: 'date home page'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

@@ -1,0 +1,22 @@
+uuid: cdbfa863-1890-4c58-80c5-b1acba0d7c48
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_text_home_page
+    - node.type.home_page
+  module:
+    - text
+id: node.home_page.field_text_home_page
+field_name: field_text_home_page
+entity_type: node
+bundle: home_page
+label: 'text home page'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

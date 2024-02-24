@@ -1,0 +1,20 @@
+uuid: af253051-7da5-4ae5-998d-e40ddbced617
+langcode: en
+status: true
+dependencies:
+  module:
+    - datetime
+    - node
+id: node.field_date_home_page
+field_name: field_date_home_page
+entity_type: node
+type: datetime
+settings:
+  datetime_type: datetime
+module: datetime
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -4,8 +4,10 @@ status: true
 dependencies:
   config:
     - field.field.node.basic_page.body
+    - field.field.node.basic_page.field_audio
     - node.type.basic_page
   module:
+    - media_library
     - path
     - text
 id: node.basic_page.default
@@ -28,6 +30,13 @@ content:
     weight: 10
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_audio:
+    type: media_library_widget
+    weight: 122
+    region: content
+    settings:
+      media_types: {  }
     third_party_settings: {  }
   langcode:
     type: language_select

@@ -1,0 +1,27 @@
+uuid: cb02f75d-7d14-4993-bf19-cc04dfd48987
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.tabs
+id: block_content.tabs.default
+targetEntityType: block_content
+bundle: tabs
+mode: default
+content:
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+hidden: {  }

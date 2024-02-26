@@ -1,0 +1,19 @@
+uuid: d516448e-4a4a-42b4-b4ce-92a411a0e367
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph_slider
+    - paragraphs.paragraphs_type.slide
+id: paragraph.slide.field_paragraph_slider
+field_name: field_paragraph_slider
+entity_type: paragraph
+bundle: slide
+label: 'Paragraph slider'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

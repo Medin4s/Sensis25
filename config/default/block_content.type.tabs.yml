@@ -1,0 +1,8 @@
+uuid: d0531f3e-f9e6-4aca-aeee-c0cfcdef2cbd
+langcode: en
+status: true
+dependencies: {  }
+id: tabs
+label: Tabs
+revision: 0
+description: ''

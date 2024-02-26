@@ -1,0 +1,25 @@
+uuid: 60d22035-19c1-4463-8449-c63137e31574
+langcode: en
+status: true
+dependencies:
+  module:
+    - quicktabs
+    - system
+  theme:
+    - claro
+id: claro_quicktabsquicktabs
+theme: claro
+region: content
+weight: 0
+provider: null
+plugin: 'quicktabs_block:quick_tabs'
+settings:
+  id: 'quicktabs_block:quick_tabs'
+  label: 'QuickTabs - Quick tabs'
+  label_display: visible
+  provider: quicktabs
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /about

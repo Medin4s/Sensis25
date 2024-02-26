@@ -1,0 +1,10 @@
+uuid: fddccba7-75e2-4469-a128-1dbfea65cbdd
+langcode: en
+status: true
+dependencies: {  }
+id: slide
+label: Slide
+icon_uuid: null
+icon_default: null
+description: 'Allows to add slides to the carousel.'
+behavior_plugins: {  }

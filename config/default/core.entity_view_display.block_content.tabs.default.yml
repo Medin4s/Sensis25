@@ -1,0 +1,13 @@
+uuid: 3c39fef7-a3fb-41aa-b90f-17631e124ba4
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.tabs
+id: block_content.tabs.default
+targetEntityType: block_content
+bundle: tabs
+mode: default
+content: {  }
+hidden:
+  langcode: true

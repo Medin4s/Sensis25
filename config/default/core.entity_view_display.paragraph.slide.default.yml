@@ -1,0 +1,35 @@
+uuid: 1fab4726-7f09-4de0-9ecb-d68d30fbd4ad
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.slide.field_image_slider
+    - field.field.paragraph.slide.field_paragraph_slider
+    - paragraphs.paragraphs_type.slide
+  module:
+    - image
+id: paragraph.slide.default
+targetEntityType: paragraph
+bundle: slide
+mode: default
+content:
+  field_image_slider:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_paragraph_slider:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

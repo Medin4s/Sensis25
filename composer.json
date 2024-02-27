@@ -30,6 +30,7 @@
         "drupal/file_delete": "^2.0",
         "drupal/libraries": "^4.0",
         "drupal/mail_login": "^3.0",
+        "drupal/paragraphs": "^1.17",
         "drupal/quicktabs": "^3.0@alpha",
         "drupal/slick_paragraphs": "^2.4",
         "drupal/twig_vardumper": "^3.1",

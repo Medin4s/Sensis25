@@ -1,14 +1,14 @@
 _core:
   default_config_hash: l58O_yEXSo-SeJi19LXdzTU1tNJG3lmnIhCitRkM1tk
 langcode: en
-uuid: 9d49f29a-6205-45fa-9f05-94774decb888
+uuid: 05c14f84-90cb-4a79-97d1-8f976a99e418
 name: 'Sensis site'
 mail: no-reply@example.com
 slogan: ''
 page:
   403: ''
   404: ''
-  front: /node/2
+  front: /node/3
 admin_compact_mode: false
 weight_select_max: 100
 default_langcode: en

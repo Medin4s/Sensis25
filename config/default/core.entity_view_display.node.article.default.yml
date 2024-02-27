@@ -3,15 +3,54 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.node.article.field_author
+    - field.field.node.article.field_body
+    - field.field.node.article.field_date
+    - field.field.node.article.field_media
     - field.field.node.article.field_title_article
     - node.type.article
   module:
+    - datetime
+    - text
     - user
 id: node.article.default
 targetEntityType: node
 bundle: article
 mode: default
 content:
+  field_author:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_body:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_date:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_media:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 105
+    region: content
   field_title_article:
     type: string
     label: above

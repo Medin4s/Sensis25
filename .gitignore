@@ -5,7 +5,6 @@
 # @see https://www.drupal.org/project/drupal/issues/3257119
 /docroot/core
 /vendor/
-/docroot/sites/*/settings.*.php
 /docroot/sites/*/services*.yml
 /docroot/sites/*/files
 /docroot/sites/*/private

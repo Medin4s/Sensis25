@@ -7,7 +7,6 @@ dependencies:
     - field.field.node.article.field_body
     - field.field.node.article.field_date
     - field.field.node.article.field_media
-    - field.field.node.article.field_title_article
     - node.type.article
   module:
     - datetime
@@ -38,7 +37,7 @@ content:
     label: above
     settings:
       timezone_override: ''
-      format_type: medium
+      format_type: html_date
     third_party_settings: {  }
     weight: 2
     region: content
@@ -50,14 +49,6 @@ content:
       link: false
     third_party_settings: {  }
     weight: 5
-    region: content
-  field_title_article:
-    type: string
-    label: above
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-    weight: 1
     region: content
   links:
     settings: {  }

@@ -1,8 +1,9 @@
-uuid: 584d8e8e-a559-4a87-9263-15a4881ea55b
+uuid: 0d2c2466-2df6-4a77-96e0-45a248f0f8bf
 langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.node.full
     - field.field.node.article.field_author
     - field.field.node.article.field_body
     - field.field.node.article.field_date
@@ -11,12 +12,17 @@ dependencies:
     - node.type.article
   module:
     - datetime
+    - layout_builder
     - text
     - user
-id: node.article.default
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+id: node.article.full
 targetEntityType: node
 bundle: article
-mode: default
+mode: full
 content:
   field_author:
     type: entity_reference_label

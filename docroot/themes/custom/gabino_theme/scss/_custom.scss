@@ -1,0 +1,31 @@
+/**
+ * mixins.
+ */
+@import "custom/00-mixin/00-mixin-fonts.scss";
+@import "custom/00-mixin/01-mixin-transform.scss";
+@import "custom/00-mixin/03-transition.scss";
+@import "custom/00-mixin/04-transition-delay.scss";
+@import "custom/00-mixin/05-filter.scss";
+@import "custom/00-mixin/06-box-shadow.scss";
+@import "custom/00-mixin/07-gradient.scss";
+@import "custom/00-mixin/08-mask-size.scss";
+@import "custom/00-mixin/09-mask-image.scss";
+@import "custom/00-mixin/10-mask-position.scss";
+@import "custom/00-mixin/11-mask-repeat.scss";
+@import "custom/00-mixin/12-border-radius.scss";
+@import "custom/00-mixin/13-transition-property.scss";
+@import "custom/00-mixin/14-headings.scss";
+/**
+  * Sections.
+  */
+
+/**
+  * Components.
+  */
+@import "custom/02-components/00-containers.scss";
+//  @import "custom/02-components/01-nav-custom.scss";
+/**
+  * Globals.
+  */
+@import "custom/01-global/00-general-rules.scss";
+@import "custom/01-global/01-headings.scss";

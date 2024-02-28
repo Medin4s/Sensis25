@@ -1,18 +1,16 @@
-uuid: a9bb21af-ebac-4a2b-a9db-dda7f7e2a4b8
+uuid: 5d2257ea-6cae-4f74-8e23-4a9f88b0420b
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.body
-    - node.type.book
+    - node.type.government_services
   module:
     - text
-_core:
-  default_config_hash: ixtdivMIK7bLEDlPssoK_n1NdWEQjhD2EZ8th_biWJo
-id: node.book.body
+id: node.government_services.body
 field_name: body
 entity_type: node
-bundle: book
+bundle: government_services
 label: Body
 description: ''
 required: false

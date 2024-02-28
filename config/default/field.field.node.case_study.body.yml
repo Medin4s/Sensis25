@@ -1,16 +1,16 @@
-uuid: 1890f1e5-b3a8-4524-bd23-59056f17510d
+uuid: 00cfbbd0-68cc-4a84-9308-b02e335fc8ee
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.body
-    - node.type.basic_page
+    - node.type.case_study
   module:
     - text
-id: node.basic_page.body
+id: node.case_study.body
 field_name: body
 entity_type: node
-bundle: basic_page
+bundle: case_study
 label: Body
 description: ''
 required: false

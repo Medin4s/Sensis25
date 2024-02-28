@@ -1,0 +1,29 @@
+uuid: e4dcc36d-a97f-42a9-81dc-c984887d9015
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.government_services.body
+    - node.type.government_services
+  module:
+    - text
+    - user
+id: node.government_services.default
+targetEntityType: node
+bundle: government_services
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

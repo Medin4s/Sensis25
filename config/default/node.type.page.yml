@@ -1,10 +1,10 @@
-uuid: 7ba9c582-181d-4f00-aeb6-409ea2e1b24c
+uuid: 07f21f8f-d208-45df-b159-4cef8d943cce
 langcode: en
 status: true
 dependencies: {  }
-name: 'Basic Page'
-type: basic_page
-description: 'Basic page'
+name: Page
+type: page
+description: ''
 help: ''
 new_revision: true
 preview_mode: 1

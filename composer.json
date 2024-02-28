@@ -20,6 +20,7 @@
         "drupal/admin_toolbar": "^3.4",
         "drupal/blazy": "^2.22",
         "drupal/bootstrap": "^3.30",
+        "drupal/ckeditor_media_embed": "^1.12",
         "drupal/config_ignore": "^3.2",
         "drupal/config_sync_without_site_uuid": "^1.0@beta",
         "drupal/core-composer-scaffold": "^10",
@@ -34,6 +35,7 @@
         "drupal/quicktabs": "^3.0@alpha",
         "drupal/slick_paragraphs": "^2.4",
         "drupal/twig_vardumper": "^3.1",
+        "drupal/views_accordion": "^2.0",
         "drupal/views_slideshow": "^5.0",
         "drush/drush": "^12.4",
         "oomphinc/composer-installers-extender": "^2"

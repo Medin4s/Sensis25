@@ -2,7 +2,10 @@ uuid: 4d8aeb4d-f685-42cf-9e3a-86c38406b5f4
 langcode: en
 status: true
 dependencies:
+  config:
+    - filter.format.ckeditor
   module:
+    - filter
     - media
     - system
 _core:
@@ -13,4 +16,5 @@ weight: 0
 is_admin: false
 permissions:
   - 'access content'
+  - 'use text format ckeditor'
   - 'view media'

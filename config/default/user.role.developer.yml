@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - filter.format.ckeditor
     - node.type.basic_page
     - node.type.book
   module:
@@ -149,6 +150,7 @@ permissions:
   - 'update media'
   - 'use admin toolbar search'
   - 'use advanced search'
+  - 'use text format ckeditor'
   - 'view all media revisions'
   - 'view all revisions'
   - 'view any unpublished content'

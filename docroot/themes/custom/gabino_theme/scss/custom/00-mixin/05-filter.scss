@@ -1,5 +1,0 @@
-@mixin filter($string){
-  -webkit-filter: $string;
-  -ms-filter: $string;
-  filter: $string;
-}

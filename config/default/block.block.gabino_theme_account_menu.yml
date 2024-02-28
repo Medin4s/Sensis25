@@ -1,0 +1,27 @@
+uuid: 0ec3c45a-014a-4876-b130-235bf984b1b8
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - gabino_theme
+_core:
+  default_config_hash: zryLrkmS8JEvxmAFyaPUGefrFMTkYJQ7GRLx7Iz8R-8
+id: gabino_theme_account_menu
+theme: gabino_theme
+region: nav_additional
+weight: -7
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

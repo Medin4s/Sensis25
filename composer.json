@@ -20,6 +20,7 @@
         "drupal/admin_toolbar": "^3.4",
         "drupal/blazy": "^2.22",
         "drupal/bootstrap": "^3.30",
+        "drupal/bootstrap5": "^3.0",
         "drupal/ckeditor_media_embed": "^1.12",
         "drupal/config_ignore": "^3.2",
         "drupal/config_sync_without_site_uuid": "^1.0@beta",

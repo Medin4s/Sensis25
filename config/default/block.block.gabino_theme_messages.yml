@@ -1,0 +1,22 @@
+uuid: d775a044-2a5f-4f74-ba4d-c4ba7e5f34e4
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - gabino_theme
+_core:
+  default_config_hash: WFQoT-IIxB3iAfZpWdzHBz5bZ4wtuzNuEJucgAiet_0
+id: gabino_theme_messages
+theme: gabino_theme
+region: content
+weight: -7
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Messages
+  label_display: '0'
+  provider: system
+visibility: {  }

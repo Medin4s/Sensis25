@@ -1,0 +1,22 @@
+uuid: 2e63529c-2cc1-40e3-8109-1ae2897e30cf
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - gabino_theme
+_core:
+  default_config_hash: exggvWgZmilBF0XX-QF7TWlPOm6jWxDjVFsUnLT2PO4
+id: gabino_theme_breadcrumbs
+theme: gabino_theme
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

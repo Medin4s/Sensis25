@@ -1,0 +1,20 @@
+uuid: e10fd72b-8d80-4054-b4bf-2056085e785c
+langcode: en
+status: true
+dependencies:
+  theme:
+    - gabino_theme
+_core:
+  default_config_hash: ZSt12_VKzLeMiwmD4aKrYNHGrp9sz1UA6mTegYmH13I
+id: gabino_theme_page_title
+theme: gabino_theme
+region: content
+weight: -6
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

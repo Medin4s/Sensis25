@@ -1,0 +1,27 @@
+uuid: 9ade46b4-c526-4799-8c01-0164d758a818
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - gabino_theme
+_core:
+  default_config_hash: b2P0RiA8qrBLDFEhljsxOdLAWDnvnkP0QcOKiYnApQs
+id: gabino_theme_main_navigation
+theme: gabino_theme
+region: nav_main
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: true
+visibility: {  }

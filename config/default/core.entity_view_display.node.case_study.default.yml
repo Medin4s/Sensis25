@@ -1,0 +1,29 @@
+uuid: fe41ec84-8a8f-4acd-9b1f-77e7d574eec4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.case_study.body
+    - node.type.case_study
+  module:
+    - text
+    - user
+id: node.case_study.default
+targetEntityType: node
+bundle: case_study
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

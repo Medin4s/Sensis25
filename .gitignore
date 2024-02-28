@@ -7,7 +7,7 @@
 /vendor/
 /docroot/sites/*/settings.*.php
 /docroot/sites/*/services*.yml
-#/docroot/sites/*/files
+/docroot/sites/*/files
 /docroot/sites/*/private
 /docroot/sites/simpletest
 

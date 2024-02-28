@@ -1,0 +1,23 @@
+uuid: aa911960-9822-4cfc-ad69-cbb0119e958f
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.icon_site
+    - field.field.block_content.icon_site.field_icon_site
+id: block_content.icon_site.default
+targetEntityType: block_content
+bundle: icon_site
+mode: default
+content:
+  field_icon_site:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: media_library
+      link: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  langcode: true

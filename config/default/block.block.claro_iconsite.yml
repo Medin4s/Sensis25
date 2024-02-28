@@ -1,0 +1,25 @@
+uuid: 2eb2213a-5bba-4c30-95fc-2d98809d7073
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:tabs:d7060297-a9a1-482f-a767-fcec6b1abcf6'
+  module:
+    - block_content
+  theme:
+    - claro
+id: claro_iconsite
+theme: claro
+region: header
+weight: 0
+provider: null
+plugin: 'block_content:d7060297-a9a1-482f-a767-fcec6b1abcf6'
+settings:
+  id: 'block_content:d7060297-a9a1-482f-a767-fcec6b1abcf6'
+  label: 'Icon Site'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

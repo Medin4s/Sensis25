@@ -1,0 +1,20 @@
+uuid: 98fc236f-dee0-41f1-970c-4034f313c240
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - media
+id: block_content.field_icon_site
+field_name: field_icon_site
+entity_type: block_content
+type: entity_reference
+settings:
+  target_type: media
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

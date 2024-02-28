@@ -1,0 +1,34 @@
+uuid: 04430542-3e75-4d15-af09-957c3b3f2696
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.icon_site
+    - field.storage.block_content.field_icon_site
+    - media.type.image
+  content:
+    - 'media:image:751e8dd5-969c-4bdb-8d20-f7f6e4ebf658'
+id: block_content.icon_site.field_icon_site
+field_name: field_icon_site
+entity_type: block_content
+bundle: icon_site
+label: 'Icon Site'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    target_uuid: 751e8dd5-969c-4bdb-8d20-f7f6e4ebf658
+    weight: 0
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: audio
+field_type: entity_reference

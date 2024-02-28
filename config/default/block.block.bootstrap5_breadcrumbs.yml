@@ -1,15 +1,15 @@
-uuid: e25a9bc7-798a-4406-8783-8c8743425a92
+uuid: 5b6ccf38-9dfd-4f37-a2d2-bf1cce82e079
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - gabino_theme
+    - bootstrap5
 _core:
-  default_config_hash: exggvWgZmilBF0XX-QF7TWlPOm6jWxDjVFsUnLT2PO4
-id: gabino_theme_breadcrumbs
-theme: gabino_theme
+  default_config_hash: VShtwe72J2j41BJzApoNbs8l554EpngM5RTObxM7yiw
+id: bootstrap5_breadcrumbs
+theme: bootstrap5
 region: breadcrumb
 weight: 0
 provider: null

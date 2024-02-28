@@ -1,15 +1,15 @@
-uuid: 2a2188ba-e9b9-4e56-be80-510c9cf55eae
+uuid: 01552e55-24b4-4514-ba0a-5c58dc2cc094
 langcode: en
 status: true
 dependencies:
   module:
     - search
   theme:
-    - gabino_theme
+    - bootstrap5
 _core:
-  default_config_hash: 3FXAmCSKs0AKbjkCe_u09kwhtFNLNfRXjxTYb4WAidA
-id: gabino_theme_search_form
-theme: gabino_theme
+  default_config_hash: HZJ8894mYbX0pdeltUdfnQjONb-BnkflWDqEm_x13m4
+id: bootstrap5_search_form
+theme: bootstrap5
 region: nav_additional
 weight: 0
 provider: null

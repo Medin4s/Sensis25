@@ -1,4 +1,4 @@
-uuid: 32a66e93-eca9-485b-b1a7-f1d7daa0ab6e
+uuid: 22853fc7-a101-4ec6-83ba-253b896f7ee7
 langcode: en
 status: true
 dependencies:
@@ -7,11 +7,11 @@ dependencies:
   module:
     - system
   theme:
-    - gabino_theme
+    - bootstrap5
 _core:
-  default_config_hash: U9dmEGhIOXa8ITjEKF5pEOP3uCKjk_gquRDWS8I91AM
-id: gabino_theme_footer
-theme: gabino_theme
+  default_config_hash: xBR1vgpnqSUW4pA2LC3rfhu27FQUox9zZEYsdAFM2Sg
+id: bootstrap5_footer
+theme: bootstrap5
 region: footer
 weight: -6
 provider: null

@@ -1,4 +1,4 @@
-name: Bootstrap5
+name: gabino_theme
 type: theme
 description: 'Theme with Bootstrap 5 css library'
 core_version_requirement: ^9.4 || ^10

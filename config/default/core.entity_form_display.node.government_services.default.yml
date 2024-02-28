@@ -1,23 +1,21 @@
-uuid: 90bc4dbf-322d-4afa-9e5b-b9573f42b941
+uuid: 3ac8a34a-4aa4-432c-b34b-18fadcdba137
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.book.body
-    - node.type.book
+    - field.field.node.government_services.body
+    - node.type.government_services
   module:
     - path
     - text
-_core:
-  default_config_hash: b_hvlXsOoKPjlyIXXp3Msda_pMWTEC4kFo61--akj0Y
-id: node.book.default
+id: node.government_services.default
 targetEntityType: node
-bundle: book
+bundle: government_services
 mode: default
 content:
   body:
     type: text_textarea_with_summary
-    weight: 26
+    weight: 121
     region: content
     settings:
       rows: 9

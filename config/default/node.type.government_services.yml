@@ -1,9 +1,9 @@
-uuid: a041fa72-28b6-422a-8981-32a606381fa4
+uuid: 8b10e356-1afd-4555-b247-1b4763f3fa0a
 langcode: en
 status: true
 dependencies: {  }
-name: 'Test content type'
-type: test_content_type
+name: 'Government Services'
+type: government_services
 description: ''
 help: ''
 new_revision: true

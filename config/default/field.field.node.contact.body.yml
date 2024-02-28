@@ -1,16 +1,16 @@
-uuid: 5d42a60a-8a40-43b8-a9ff-53c7d823e5b4
+uuid: 4dceec67-13df-45dd-b798-c392355f065a
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.body
-    - node.type.test_content_type
+    - node.type.contact
   module:
     - text
-id: node.test_content_type.body
+id: node.contact.body
 field_name: body
 entity_type: node
-bundle: test_content_type
+bundle: contact
 label: Body
 description: ''
 required: false

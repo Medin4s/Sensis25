@@ -1,16 +1,16 @@
-uuid: a1c857e3-483b-4aa7-bc47-628555319a45
+uuid: 8707115d-054b-41bd-86f3-cb30a91ec4b4
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.test_content_type.body
-    - node.type.test_content_type
+    - field.field.node.team.body
+    - node.type.team
   module:
     - path
     - text
-id: node.test_content_type.default
+id: node.team.default
 targetEntityType: node
-bundle: test_content_type
+bundle: team
 mode: default
 content:
   body:

@@ -1,5 +1,0 @@
-name: Forcontu Forms
-description: Form API
-package: Forcontu
-type: module
-core_version_requirement: ^10

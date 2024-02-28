@@ -1,16 +1,16 @@
-uuid: 208e8004-c453-4656-8929-5a7d247de6d2
+uuid: 6025e366-0a67-4ed0-a9e2-cfafda4f2bb3
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.contact.body
-    - node.type.contact
+    - field.field.node.test_content_type.body
+    - node.type.test_content_type
   module:
     - text
     - user
-id: node.contact.default
+id: node.test_content_type.default
 targetEntityType: node
-bundle: contact
+bundle: test_content_type
 mode: default
 content:
   body:

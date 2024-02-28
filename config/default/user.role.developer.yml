@@ -4,6 +4,8 @@ status: true
 dependencies:
   config:
     - filter.format.ckeditor
+    - node.type.basic_page
+    - node.type.book
   module:
     - action
     - admin_toolbar_search
@@ -112,20 +114,34 @@ permissions:
   - 'change own username'
   - 'configure any layout'
   - 'create and edit custom blocks'
+  - 'create basic_page content'
+  - 'create book content'
   - 'create media'
   - 'create new books'
   - 'create url aliases'
   - 'delete all revisions'
+  - 'delete any basic_page content'
+  - 'delete any book content'
   - 'delete any file'
   - 'delete any media'
+  - 'delete basic_page revisions'
+  - 'delete book revisions'
   - 'delete media'
+  - 'delete own basic_page content'
+  - 'delete own book content'
   - 'delete own files'
+  - 'edit any basic_page content'
+  - 'edit any book content'
+  - 'edit own basic_page content'
+  - 'edit own book content'
   - 'edit own comments'
   - 'export configuration'
   - 'import configuration'
   - 'link to any page'
   - 'post comments'
   - 'revert all revisions'
+  - 'revert basic_page revisions'
+  - 'revert book revisions'
   - 'search content'
   - 'select account cancellation method'
   - 'skip comment approval'
@@ -138,6 +154,8 @@ permissions:
   - 'view all media revisions'
   - 'view all revisions'
   - 'view any unpublished content'
+  - 'view basic_page revisions'
+  - 'view book revisions'
   - 'view latest version'
   - 'view media'
   - 'view own unpublished content'

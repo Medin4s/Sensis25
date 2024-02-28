@@ -1,16 +1,18 @@
-uuid: fe41ec84-8a8f-4acd-9b1f-77e7d574eec4
+uuid: 4d49aad5-5001-47de-8a67-69c675a58bac
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.case_study.body
-    - node.type.case_study
+    - field.field.node.book.body
+    - node.type.book
   module:
     - text
     - user
-id: node.case_study.default
+_core:
+  default_config_hash: W620wooZmJ02Ua5mnXNKBCOpI0abjSOOSKEkSQhuWNA
+id: node.book.default
 targetEntityType: node
-bundle: case_study
+bundle: book
 mode: default
 content:
   body:
@@ -18,12 +20,10 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 101
+    weight: 100
     region: content
   links:
-    settings: {  }
-    third_party_settings: {  }
-    weight: 100
+    weight: 101
     region: content
 hidden:
   langcode: true

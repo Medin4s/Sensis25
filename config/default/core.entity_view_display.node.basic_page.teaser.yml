@@ -1,17 +1,18 @@
-uuid: 790a9882-347a-40e9-afa6-65ef61e4bf4e
+uuid: 09053f28-8809-4f97-9b78-d385694bab47
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.page.body
-    - node.type.page
+    - field.field.node.basic_page.body
+    - field.field.node.basic_page.field_audio
+    - node.type.basic_page
   module:
     - text
     - user
-id: node.page.teaser
+id: node.basic_page.teaser
 targetEntityType: node
-bundle: page
+bundle: basic_page
 mode: teaser
 content:
   body:
@@ -28,4 +29,5 @@ content:
     weight: 100
     region: content
 hidden:
+  field_audio: true
   langcode: true

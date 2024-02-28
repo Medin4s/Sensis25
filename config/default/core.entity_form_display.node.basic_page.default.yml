@@ -1,16 +1,18 @@
-uuid: 81282398-1b5d-473e-b553-4ecebc03c53f
+uuid: 1cd63c1b-c86e-4a00-b192-34b4675197db
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.about.body
-    - node.type.about
+    - field.field.node.basic_page.body
+    - field.field.node.basic_page.field_audio
+    - node.type.basic_page
   module:
+    - media_library
     - path
     - text
-id: node.about.default
+id: node.basic_page.default
 targetEntityType: node
-bundle: about
+bundle: basic_page
 mode: default
 content:
   body:
@@ -28,6 +30,13 @@ content:
     weight: 10
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_audio:
+    type: media_library_widget
+    weight: 122
+    region: content
+    settings:
+      media_types: {  }
     third_party_settings: {  }
   langcode:
     type: language_select

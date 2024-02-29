@@ -2,16 +2,12 @@ uuid: d9323ea9-db94-460f-94de-ade7fcc68fb9
 langcode: en
 status: true
 dependencies:
-  content:
-    - 'block_content:tabs:d7060297-a9a1-482f-a767-fcec6b1abcf6'
-  module:
-    - block_content
   theme:
     - isensubtheme
 id: isensubtheme_iconsite
 theme: isensubtheme
 region: header
-weight: 0
+weight: -7
 provider: null
 plugin: 'block_content:d7060297-a9a1-482f-a767-fcec6b1abcf6'
 settings:

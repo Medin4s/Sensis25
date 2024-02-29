@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.article.field_body
     - field.field.node.article.field_date
     - field.field.node.article.field_media
+    - field.field.node.article.field_title
     - node.type.article
   module:
     - datetime
@@ -23,14 +24,14 @@ content:
     settings:
       link: true
     third_party_settings: {  }
-    weight: 4
+    weight: 1
     region: content
   field_body:
     type: text_default
     label: above
     settings: {  }
     third_party_settings: {  }
-    weight: 3
+    weight: 4
     region: content
   field_date:
     type: datetime_default
@@ -48,12 +49,16 @@ content:
       view_mode: default
       link: false
     third_party_settings: {  }
-    weight: 5
+    weight: 3
     region: content
-  links:
-    settings: {  }
+  field_title:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
     weight: 0
     region: content
 hidden:
   langcode: true
+  links: true

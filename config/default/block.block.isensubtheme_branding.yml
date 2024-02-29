@@ -1,0 +1,25 @@
+uuid: 728c796c-6fb5-406f-aa31-f524608ee967
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - isensubtheme
+_core:
+  default_config_hash: 8KDq_w0LBh9liQESxe2t8YC-Mpow5GDVpMVvkcs_Lkk
+id: isensubtheme_branding
+theme: isensubtheme
+region: nav_branding
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

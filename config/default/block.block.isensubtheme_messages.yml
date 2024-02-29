@@ -1,0 +1,22 @@
+uuid: 7ab693c5-de9e-451e-82fc-6f4af5670092
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - isensubtheme
+_core:
+  default_config_hash: PCpc27BwLW5tGeMK3YHu4M0yos19WsS6bzEbLT1m9x4
+id: isensubtheme_messages
+theme: isensubtheme
+region: content
+weight: -7
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Messages
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.article.field_body
     - field.field.node.article.field_date
     - field.field.node.article.field_media
+    - field.field.node.article.field_title
     - node.type.article
   module:
     - datetime
@@ -54,6 +55,14 @@ content:
     region: content
     settings:
       media_types: {  }
+    third_party_settings: {  }
+  field_title:
+    type: string_textfield
+    weight: 26
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
   langcode:
     type: language_select

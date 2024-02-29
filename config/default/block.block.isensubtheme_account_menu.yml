@@ -1,0 +1,27 @@
+uuid: cfe28e45-ae69-4c42-8772-1d8c2cba8e54
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - isensubtheme
+_core:
+  default_config_hash: 32lfYj9oVeK1sWI0fCqruAV3nvPTTj_yPosF5pXb5Po
+id: isensubtheme_account_menu
+theme: isensubtheme
+region: nav_additional
+weight: -7
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

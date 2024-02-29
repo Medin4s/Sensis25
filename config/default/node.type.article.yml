@@ -1,7 +1,14 @@
 uuid: 5e16ebf7-26e1-4a25-809a-ebe63da62e95
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
 name: Article
 type: article
 description: 'a Article page'

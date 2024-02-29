@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.article.field_body
     - field.field.node.article.field_date
     - field.field.node.article.field_media
+    - field.field.node.article.field_title
     - node.type.article
   module:
     - user
@@ -26,4 +27,5 @@ hidden:
   field_body: true
   field_date: true
   field_media: true
+  field_title: true
   langcode: true

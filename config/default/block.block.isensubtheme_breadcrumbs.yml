@@ -1,0 +1,22 @@
+uuid: f19d81e9-e1e7-46c0-a839-113661c1b362
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - isensubtheme
+_core:
+  default_config_hash: 0kWK27FFObqzQL8dt_6VKbzvzzRoqpSYwZ60RiCdsjU
+id: isensubtheme_breadcrumbs
+theme: isensubtheme
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

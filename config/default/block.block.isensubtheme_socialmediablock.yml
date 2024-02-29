@@ -1,0 +1,33 @@
+uuid: a23b86f3-f5b0-490f-8c2a-7802046f335d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:social_media:127478f4-96fd-49a8-8f52-5514527d4451'
+  module:
+    - block_content
+    - node
+  theme:
+    - isensubtheme
+id: isensubtheme_socialmediablock
+theme: isensubtheme
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'block_content:127478f4-96fd-49a8-8f52-5514527d4451'
+settings:
+  id: 'block_content:127478f4-96fd-49a8-8f52-5514527d4451'
+  label: 'Social media block'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      article: article

@@ -1,0 +1,25 @@
+uuid: 2767ae0f-deb0-4e34-a055-7f8d39fe6cbc
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:social_media:d9b2e14b-f7b5-4f75-9d81-11bd7a47c188'
+  module:
+    - block_content
+  theme:
+    - isensubtheme
+id: isensubtheme_socialmedia
+theme: isensubtheme
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'block_content:d9b2e14b-f7b5-4f75-9d81-11bd7a47c188'
+settings:
+  id: 'block_content:d9b2e14b-f7b5-4f75-9d81-11bd7a47c188'
+  label: 'Social media'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

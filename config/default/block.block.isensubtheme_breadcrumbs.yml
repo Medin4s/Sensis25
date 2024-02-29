@@ -10,8 +10,8 @@ _core:
   default_config_hash: 0kWK27FFObqzQL8dt_6VKbzvzzRoqpSYwZ60RiCdsjU
 id: isensubtheme_breadcrumbs
 theme: isensubtheme
-region: breadcrumb
-weight: 0
+region: content
+weight: -4
 provider: null
 plugin: system_breadcrumb_block
 settings:

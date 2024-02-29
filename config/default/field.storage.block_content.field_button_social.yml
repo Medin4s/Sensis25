@@ -1,0 +1,33 @@
+uuid: 6e802117-6d02-496b-9139-d999098ddadd
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - options
+id: block_content.field_button_social
+field_name: field_button_social
+entity_type: block_content
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: mail
+      label: mail
+    -
+      value: linkedin
+      label: linkedin
+    -
+      value: facebook
+      label: facebook
+    -
+      value: twitter
+      label: twitter
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,29 @@
+uuid: e7cb66dc-dc61-433c-9a54-985533290f20
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.social_media
+    - core.entity_view_mode.block_content.full
+    - field.field.block_content.social_media.field_button_social
+  module:
+    - layout_builder
+    - options
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+id: block_content.social_media.full
+targetEntityType: block_content
+bundle: social_media
+mode: full
+content:
+  field_button_social:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true

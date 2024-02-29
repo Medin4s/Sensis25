@@ -1,0 +1,21 @@
+uuid: 72533e9b-51cd-4946-b096-5e5e432142f9
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.social_media
+    - field.storage.block_content.field_button_social
+  module:
+    - options
+id: block_content.social_media.field_button_social
+field_name: field_button_social
+entity_type: block_content
+bundle: social_media
+label: 'Button social'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

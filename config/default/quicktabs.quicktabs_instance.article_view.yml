@@ -1,0 +1,65 @@
+uuid: 985a8649-1391-4237-b2cd-5e0be8207a27
+langcode: en
+status: true
+dependencies: {  }
+id: article_view
+label: 'Article view'
+renderer: quick_tabs
+hide_empty_tabs: false
+default_tab: 9999
+options:
+  quick_tabs:
+    ajax: false
+    class: ''
+    style: tabsbar
+  accordion_tabs:
+    jquery_ui:
+      collapsible: false
+      heightStyle: auto
+configuration_data:
+  -
+    title: test2
+    weight: 0
+    type: view_content
+    content:
+      view_content:
+        options:
+          vid: nexus
+          display: page_1
+          args: ''
+      node_content:
+        options:
+          nid: ''
+          view_mode: full
+          hide_title: true
+      block_content:
+        options:
+          bid: 'block_content:d9b2e14b-f7b5-4f75-9d81-11bd7a47c188'
+          block_title: ''
+          display_title: false
+      qtabs_content:
+        options:
+          machine_name: ''
+  -
+    title: test1
+    weight: 0
+    type: view_content
+    content:
+      view_content:
+        options:
+          vid: test_nexus
+          display: page_1
+          args: ''
+      node_content:
+        options:
+          nid: ''
+          view_mode: full
+          hide_title: true
+      block_content:
+        options:
+          bid: 'block_content:d9b2e14b-f7b5-4f75-9d81-11bd7a47c188'
+          block_title: ''
+          display_title: false
+      qtabs_content:
+        options:
+          machine_name: ''

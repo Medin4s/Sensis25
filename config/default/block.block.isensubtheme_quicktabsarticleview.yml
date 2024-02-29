@@ -1,0 +1,25 @@
+uuid: 05584b20-5571-41a2-82b1-ceca32aa1efc
+langcode: en
+status: true
+dependencies:
+  module:
+    - quicktabs
+    - system
+  theme:
+    - isensubtheme
+id: isensubtheme_quicktabsarticleview
+theme: isensubtheme
+region: content
+weight: 0
+provider: null
+plugin: 'quicktabs_block:article_view'
+settings:
+  id: 'quicktabs_block:article_view'
+  label: 'QuickTabs - Article view'
+  label_display: visible
+  provider: quicktabs
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /nexus-test

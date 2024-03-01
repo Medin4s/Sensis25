@@ -8,8 +8,8 @@ _core:
   default_config_hash: XfPCVKyLV41TuGW0EhTz7Aukhjvhzf5c-v6-axk24gM
 id: isensubtheme_local_tasks
 theme: isensubtheme
-region: content
-weight: -6
+region: breadcrumb
+weight: -7
 provider: null
 plugin: local_tasks_block
 settings:

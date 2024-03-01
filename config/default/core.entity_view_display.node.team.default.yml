@@ -3,9 +3,21 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.team.body
+    - field.field.node.team.field_big_title
+    - field.field.node.team.field_final_title
+    - field.field.node.team.field_gallery_cta
+    - field.field.node.team.field_gallery_media
+    - field.field.node.team.field_gallery_text
+    - field.field.node.team.field_gallery_title
+    - field.field.node.team.field_members
+    - field.field.node.team.field_outro_cta
+    - field.field.node.team.field_outro_text
+    - field.field.node.team.field_second_title
+    - field.field.node.team.field_text
     - node.type.team
   module:
+    - entity_reference_revisions
+    - link
     - text
     - user
 id: node.team.default
@@ -13,12 +25,94 @@ targetEntityType: node
 bundle: team
 mode: default
 content:
-  body:
+  field_big_title:
     type: text_default
-    label: hidden
+    label: above
     settings: {  }
     third_party_settings: {  }
-    weight: 101
+    weight: 115
+    region: content
+  field_final_title:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 117
+    region: content
+  field_gallery_cta:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 109
+    region: content
+  field_gallery_media:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 110
+    region: content
+  field_gallery_text:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 108
+    region: content
+  field_gallery_title:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 107
+    region: content
+  field_members:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 106
+    region: content
+  field_outro_cta:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 114
+    region: content
+  field_outro_text:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 113
+    region: content
+  field_second_title:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 116
+    region: content
+  field_text:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 105
     region: content
   links:
     settings: {  }

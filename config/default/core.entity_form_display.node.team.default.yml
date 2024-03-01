@@ -3,19 +3,125 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.team.body
+    - field.field.node.team.field_big_title
+    - field.field.node.team.field_final_title
+    - field.field.node.team.field_gallery_cta
+    - field.field.node.team.field_gallery_media
+    - field.field.node.team.field_gallery_text
+    - field.field.node.team.field_gallery_title
+    - field.field.node.team.field_members
+    - field.field.node.team.field_outro_cta
+    - field.field.node.team.field_outro_text
+    - field.field.node.team.field_second_title
+    - field.field.node.team.field_text
     - node.type.team
   module:
+    - field_group
+    - link
+    - media_library
+    - paragraphs
     - path
     - text
+third_party_settings:
+  field_group:
+    group_introduction:
+      children:
+        - field_big_title
+        - field_second_title
+        - field_text
+      label: 'Hero Team'
+      region: content
+      parent_name: group_team
+      weight: 9
+      format_type: tab
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: Introduction
+        formatter: closed
+        description: ''
+        required_fields: true
+    group_members:
+      children:
+        - field_members
+      label: Members
+      region: content
+      parent_name: group_team
+      weight: 10
+      format_type: tab
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: members
+        formatter: closed
+        description: ''
+        required_fields: true
+    group_team:
+      children:
+        - group_introduction
+        - group_members
+        - group_gallery
+        - group_outroduction
+      label: Team
+      region: content
+      parent_name: ''
+      weight: 8
+      format_type: tabs
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        direction: vertical
+        width_breakpoint: 640
+    group_gallery:
+      children:
+        - field_gallery_title
+        - field_gallery_text
+        - field_gallery_cta
+        - field_gallery_media
+      label: 'Grid Gallery'
+      region: content
+      parent_name: group_team
+      weight: 11
+      format_type: tab
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        formatter: closed
+        description: ''
+        required_fields: true
+    group_outroduction:
+      children:
+        - field_final_title
+        - field_outro_text
+        - field_outro_cta
+      label: 'Final Title'
+      region: content
+      parent_name: group_team
+      weight: 12
+      format_type: tab
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        formatter: closed
+        description: ' '
+        required_fields: true
 id: node.team.default
 targetEntityType: node
 bundle: team
 mode: default
 content:
-  body:
+  created:
+    type: datetime_timestamp
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_big_title:
     type: text_textarea_with_summary
-    weight: 121
+    weight: 26
     region: content
     settings:
       rows: 9
@@ -23,49 +129,146 @@ content:
       placeholder: ''
       show_summary: false
     third_party_settings: {  }
-  created:
-    type: datetime_timestamp
+  field_final_title:
+    type: text_textarea_with_summary
+    weight: 29
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  field_gallery_cta:
+    type: paragraphs
+    weight: 13
+    region: content
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      closed_mode: summary
+      autocollapse: none
+      closed_mode_threshold: 0
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+      features:
+        collapse_edit_all: collapse_edit_all
+        duplicate: duplicate
+    third_party_settings: {  }
+  field_gallery_media:
+    type: media_library_widget
+    weight: 14
+    region: content
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+  field_gallery_text:
+    type: string_textarea
+    weight: 12
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_gallery_title:
+    type: string_textfield
+    weight: 11
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_members:
+    type: paragraphs
     weight: 10
     region: content
-    settings: {  }
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      closed_mode: summary
+      autocollapse: none
+      closed_mode_threshold: 0
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+      features:
+        collapse_edit_all: collapse_edit_all
+        duplicate: duplicate
+    third_party_settings: {  }
+  field_outro_cta:
+    type: link_default
+    weight: 31
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_outro_text:
+    type: string_textarea
+    weight: 30
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_second_title:
+    type: text_textarea_with_summary
+    weight: 27
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  field_text:
+    type: string_textarea
+    weight: 28
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
     third_party_settings: {  }
   langcode:
     type: language_select
-    weight: 2
+    weight: 1
     region: content
     settings:
       include_locked: true
     third_party_settings: {  }
   path:
     type: path
-    weight: 30
+    weight: 6
     region: content
     settings: {  }
     third_party_settings: {  }
   promote:
     type: boolean_checkbox
-    weight: 15
+    weight: 4
     region: content
     settings:
       display_label: true
     third_party_settings: {  }
   status:
     type: boolean_checkbox
-    weight: 120
+    weight: 7
     region: content
     settings:
       display_label: true
     third_party_settings: {  }
   sticky:
     type: boolean_checkbox
-    weight: 16
+    weight: 5
     region: content
     settings:
       display_label: true
     third_party_settings: {  }
   title:
     type: string_textfield
-    weight: -5
+    weight: 0
     region: content
     settings:
       size: 60
@@ -73,7 +276,7 @@ content:
     third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete
-    weight: 5
+    weight: 2
     region: content
     settings:
       match_operator: CONTAINS

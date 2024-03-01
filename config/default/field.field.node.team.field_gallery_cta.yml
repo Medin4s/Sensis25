@@ -1,0 +1,41 @@
+uuid: f3f6d635-2172-4748-934c-bcac77a7c4da
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_gallery_cta
+    - node.type.team
+    - paragraphs.paragraphs_type.gallery_cta
+  module:
+    - entity_reference_revisions
+    - field_display_label
+third_party_settings:
+  field_display_label:
+    display_label: ' '
+id: node.team.field_gallery_cta
+field_name: field_gallery_cta
+entity_type: node
+bundle: team
+label: 'Gallery CTA'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      gallery_cta: gallery_cta
+    negate: 0
+    target_bundles_drag_drop:
+      gallery_cta:
+        weight: 4
+        enabled: true
+      members:
+        weight: 5
+        enabled: false
+      slide:
+        weight: 6
+        enabled: false
+field_type: entity_reference_revisions

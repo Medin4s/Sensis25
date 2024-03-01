@@ -1,0 +1,27 @@
+uuid: f9aad631-6643-4d54-a5d1-9807c0498770
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_url
+    - paragraphs.paragraphs_type.gallery_cta
+  module:
+    - field_display_label
+    - link
+third_party_settings:
+  field_display_label:
+    display_label: ' '
+id: paragraph.gallery_cta.field_url
+field_name: field_url
+entity_type: paragraph
+bundle: gallery_cta
+label: URL
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

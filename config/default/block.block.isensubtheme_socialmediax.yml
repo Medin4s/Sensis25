@@ -2,10 +2,6 @@ uuid: 8da763a9-379a-4982-8147-f419bacc29d8
 langcode: en
 status: true
 dependencies:
-  content:
-    - 'block_content:social_media:26a7abb9-ff69-4859-adf5-94822fe089ea'
-  module:
-    - block_content
   theme:
     - isensubtheme
 id: isensubtheme_socialmediax

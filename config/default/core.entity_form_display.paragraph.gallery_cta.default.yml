@@ -1,0 +1,25 @@
+uuid: 3af32f81-b6dc-466d-a98c-1beb04dcb6b1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.gallery_cta.field_url
+    - paragraphs.paragraphs_type.gallery_cta
+  module:
+    - link
+id: paragraph.gallery_cta.default
+targetEntityType: paragraph
+bundle: gallery_cta
+mode: default
+content:
+  field_url:
+    type: link_default
+    weight: 0
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

@@ -4,28 +4,75 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.team.body
+    - field.field.node.team.field_big_title
+    - field.field.node.team.field_final_title
+    - field.field.node.team.field_gallery_cta
+    - field.field.node.team.field_gallery_media
+    - field.field.node.team.field_gallery_text
+    - field.field.node.team.field_gallery_title
+    - field.field.node.team.field_members
+    - field.field.node.team.field_outro_cta
+    - field.field.node.team.field_outro_text
+    - field.field.node.team.field_second_title
+    - field.field.node.team.field_text
     - node.type.team
   module:
-    - text
+    - field_group
     - user
+third_party_settings:
+  field_group:
+    group_introduction:
+      children:
+        - field_title_white_part
+        - field_title_orange_part
+        - field_subtitle_white_part
+        - field_subtitle_orange_part
+        - field_text
+      label: Introduction
+      parent_name: ''
+      region: content
+      weight: 11
+      format_type: tabs
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: Introduction
+        direction: vertical
+        width_breakpoint: 640
+    group_members:
+      children:
+        - field_members
+      label: Members
+      parent_name: ''
+      region: hidden
+      weight: 13
+      format_type: tab
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: members
+        formatter: open
+        description: ''
 id: node.team.teaser
 targetEntityType: node
 bundle: team
 mode: teaser
 content:
-  body:
-    type: text_summary_or_trimmed
-    label: hidden
-    settings:
-      trim_length: 600
-    third_party_settings: {  }
-    weight: 101
-    region: content
   links:
     settings: {  }
     third_party_settings: {  }
-    weight: 100
+    weight: 0
     region: content
 hidden:
+  field_big_title: true
+  field_final_title: true
+  field_gallery_cta: true
+  field_gallery_media: true
+  field_gallery_text: true
+  field_gallery_title: true
+  field_members: true
+  field_outro_cta: true
+  field_outro_text: true
+  field_second_title: true
+  field_text: true
   langcode: true

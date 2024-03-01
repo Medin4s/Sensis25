@@ -10,7 +10,7 @@ dependencies:
 id: isensubtheme_quicktabsarticleview
 theme: isensubtheme
 region: content
-weight: 0
+weight: -1
 provider: null
 plugin: 'quicktabs_block:article_view'
 settings:

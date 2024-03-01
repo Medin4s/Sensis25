@@ -1,0 +1,8 @@
+uuid: 858c9049-5ac1-45f8-b566-c4fedf7b1216
+langcode: en
+status: true
+dependencies: {  }
+name: 'Link Article'
+vid: link_article
+description: ''
+weight: 0

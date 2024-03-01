@@ -54,7 +54,7 @@ We call a macro which calls itself to render the full tree.
   %}
   {%
     set link_class = [
-      menu_level == 0 ? 'nav-link',
+      menu_level == 0 ? 'nav-link', 'text-primary',
       item.in_active_trail ? 'active',
       menu_level == 0 and (item.is_expanded or item.is_collapsed) ? 'dropdown-toggle',
       menu_level > 0 ? 'dropdown-item',

@@ -9260,6 +9260,10 @@ textarea.form-control-lg {
 .container-xxl, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
   --bs-gutter-x: 1.5rem; }
 
+.nav-image img {
+  width: 240px;
+  height: 30px; }
+
 /**
   * Globals.
   */

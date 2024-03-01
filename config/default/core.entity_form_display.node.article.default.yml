@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.node.article.field_article
     - field.field.node.article.field_author
     - field.field.node.article.field_body
     - field.field.node.article.field_date
@@ -24,6 +25,16 @@ content:
     weight: 3
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_article:
+    type: entity_reference_autocomplete
+    weight: 26
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
   field_author:
     type: entity_reference_autocomplete

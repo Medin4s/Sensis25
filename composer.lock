@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e93de7c793cfa121e6aa1186f140b012",
+    "content-hash": "2f5ad251ac4644d8cac445b471cb716c",
     "packages": [
         {
             "name": "acquia/acquia-cms-starterkit",
@@ -3405,6 +3405,56 @@
             "homepage": "https://www.drupal.org/project/entity_reference_revisions",
             "support": {
                 "source": "https://git.drupalcode.org/project/entity_reference_revisions"
+            }
+        },
+        {
+            "name": "drupal/field_display_label",
+            "version": "1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/field_display_label.git",
+                "reference": "8.x-1.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/field_display_label-8.x-1.3.zip",
+                "reference": "8.x-1.3",
+                "shasum": "745be0bcf00f1dcee8c9f6e22c25b8bd80f53b9c"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.3",
+                    "datestamp": "1655383227",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Neslee Canil Pinto",
+                    "homepage": "https://www.drupal.org/u/neslee-canil-pinto",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Plazik",
+                    "homepage": "https://www.drupal.org/user/982724"
+                }
+            ],
+            "description": "Defines a label for fields that is used for displaying content which can be different than the form label.",
+            "homepage": "https://www.drupal.org/project/field_display_label",
+            "support": {
+                "source": "https://git.drupalcode.org/project/field_display_label",
+                "issues": "https://www.drupal.org/project/issues/field_display_label"
             }
         },
         {

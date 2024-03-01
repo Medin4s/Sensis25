@@ -56,14 +56,6 @@ content:
     settings:
       media_types: {  }
     third_party_settings: {  }
-  field_title:
-    type: string_textfield
-    weight: 26
-    region: content
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
   langcode:
     type: language_select
     weight: 1
@@ -116,4 +108,5 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  field_title: true

@@ -1,18 +1,23 @@
-uuid: 2e2aee6c-cc29-4034-8fd3-5c8f3df4c7b5
+uuid: 01b15d87-5ff9-430e-93cc-28734445885e
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_author
     - node.type.article
-    - taxonomy.vocabulary.author
+    - taxonomy.vocabulary.author_article
+  module:
+    - field_display_label
+third_party_settings:
+  field_display_label:
+    display_label: ' '
 id: node.article.field_author
 field_name: field_author
 entity_type: node
 bundle: article
 label: Author
 description: ''
-required: false
+required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''
@@ -20,7 +25,7 @@ settings:
   handler: 'default:taxonomy_term'
   handler_settings:
     target_bundles:
-      author: author
+      author_article: author_article
     sort:
       field: name
       direction: asc

@@ -1,8 +1,0 @@
-uuid: ecd97b4a-542a-45b4-92d6-50c7368c6165
-langcode: en
-status: true
-dependencies: {  }
-name: Author
-vid: author
-description: ''
-weight: 0

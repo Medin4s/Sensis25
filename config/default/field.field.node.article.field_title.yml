@@ -5,11 +5,16 @@ dependencies:
   config:
     - field.storage.node.field_title
     - node.type.article
+  module:
+    - field_display_label
+third_party_settings:
+  field_display_label:
+    display_label: '  '
 id: node.article.field_title
 field_name: field_title
 entity_type: node
 bundle: article
-label: Title
+label: label
 description: ''
 required: true
 translatable: false

@@ -1,0 +1,8 @@
+uuid: d6ef316e-45eb-4299-96de-e6cfea67fe09
+langcode: en
+status: true
+dependencies: {  }
+name: 'Author Article'
+vid: author_article
+description: ''
+weight: 0

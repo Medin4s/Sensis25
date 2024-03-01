@@ -24,7 +24,7 @@ content:
     settings:
       link: true
     third_party_settings: {  }
-    weight: 1
+    weight: 5
     region: content
   field_body:
     type: text_default

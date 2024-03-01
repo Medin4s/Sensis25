@@ -9260,9 +9260,16 @@ textarea.form-control-lg {
 .container-xxl, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
   --bs-gutter-x: 1.5rem; }
 
+.nav-container {
+  padding: 30px 0; }
+
 .nav-image img {
   width: 240px;
   height: 30px; }
+
+.nav-border {
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px 0 rgba(0, 0, 0, 0.12), 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 0 0 10px 10px; }
 
 /**
   * Globals.

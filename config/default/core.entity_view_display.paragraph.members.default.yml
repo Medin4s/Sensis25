@@ -1,0 +1,50 @@
+uuid: 3a1de012-4ad6-4fa1-a7d0-539463911773
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.members.field_media
+    - field.field.paragraph.members.field_media_hover
+    - field.field.paragraph.members.field_name
+    - field.field.paragraph.members.field_position
+    - paragraphs.paragraphs_type.members
+id: paragraph.members.default
+targetEntityType: paragraph
+bundle: members
+mode: default
+content:
+  field_media:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_media_hover:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_position:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+hidden: {  }

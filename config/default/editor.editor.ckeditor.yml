@@ -21,6 +21,7 @@ settings:
       - horizontalLine
       - blockQuote
       - insertTable
+      - style
       - heading
       - removeFormat
       - sourceEditing
@@ -33,6 +34,7 @@ settings:
         - right
     ckeditor5_heading:
       enabled_headings:
+        - heading1
         - heading2
         - heading3
         - heading4
@@ -44,5 +46,29 @@ settings:
         startIndex: true
       multiBlock: true
     ckeditor5_sourceEditing:
-      allowed_tags: {  }
+      allowed_tags:
+        - '<cite>'
+        - '<blockquote cite>'
+        - '<ul type>'
+        - '<dl>'
+        - '<dt>'
+        - '<dd>'
+        - '<h2 id>'
+        - '<h3 id>'
+        - '<h4 id>'
+        - '<h5 id>'
+        - '<h6 id>'
+        - '<span>'
+        - '<div>'
+    ckeditor5_style:
+      styles:
+        -
+          label: Title
+          element: '<h1 class="title">'
+        -
+          label: 'Text Orange'
+          element: '<h1 class="text-orange">'
+        -
+          label: Button
+          element: '<button class="btn">'
 image_upload: {  }

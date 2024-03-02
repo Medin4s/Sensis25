@@ -1,0 +1,27 @@
+uuid: e1c1a03d-b6d6-4a7e-b3f9-a0a09100c385
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.gallery_cta.field_url
+    - paragraphs.paragraphs_type.gallery_cta
+  module:
+    - link
+id: paragraph.gallery_cta.default
+targetEntityType: paragraph
+bundle: gallery_cta
+mode: default
+content:
+  field_url:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

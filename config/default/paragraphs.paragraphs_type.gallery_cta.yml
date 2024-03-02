@@ -1,0 +1,10 @@
+uuid: bf2defe1-3e12-40e5-aad0-dcbd593978ae
+langcode: en
+status: true
+dependencies: {  }
+id: gallery_cta
+label: 'Gallery CTA'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,24 @@
+uuid: 6179db67-1b56-4aa1-899a-ffc5126f5de9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_text
+    - node.type.team
+  module:
+    - field_display_label
+third_party_settings:
+  field_display_label:
+    display_label: ' '
+id: node.team.field_text
+field_name: field_text
+entity_type: node
+bundle: team
+label: Text
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

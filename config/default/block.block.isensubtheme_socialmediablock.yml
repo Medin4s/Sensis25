@@ -2,10 +2,7 @@ uuid: a23b86f3-f5b0-490f-8c2a-7802046f335d
 langcode: en
 status: false
 dependencies:
-  content:
-    - 'block_content:social_media:127478f4-96fd-49a8-8f52-5514527d4451'
   module:
-    - block_content
     - node
   theme:
     - isensubtheme

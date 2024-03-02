@@ -16,15 +16,15 @@
 #}
 {%
   set classes = [
+  'text-white',
     'nav-item',
     is_active ? 'active',
-  ]
+    ]
 %}
-<li{{ attributes.addClass(classes) }}>
-  {{ link }}
+<li {{ attributes.addClass(classes) }}>
+  
+{{ link }}
   {% if is_active and level == 'primary' %}
-    <a href="#" class="tab-toggle dropdown-toggle" data-drupal-nav-tabs-toggle aria-haspopup="true" aria-expanded="false">
-      <span class="visually-hidden">{{ 'Toggle tabs as a menu'|t }}</span>
-    </a>
+
   {% endif %}
 </li>

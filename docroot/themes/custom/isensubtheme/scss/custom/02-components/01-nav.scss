@@ -11,3 +11,16 @@
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px 0 rgba(0, 0, 0, 0.12), 0 1px 3px 0 rgba(0, 0, 0, 0.2);
   border-radius: 0 0 10px 10px
 }
+
+.word-slide {
+  transition: transform 0.3s ease;
+}
+
+.slide-in {
+  transform: translateX(-90%);
+  transition: transform 5s ease;
+}
+
+.word-slide.slide-out {
+  transform: translateX(0);
+}

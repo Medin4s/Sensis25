@@ -37,6 +37,7 @@
     {% for item in items %}
       {%
         set classes_link = [
+          menu_level == 0 ? 'nav-link text-align-right', 'text-primary',
           'nav-link',
           item.is_expanded ? 'dropdown-toggle',
           item.is_collapsed ? 'dropdown-toggle',

@@ -9281,6 +9281,33 @@ textarea.form-control-lg {
 .word-slide.slide-out {
   transform: translateX(0); }
 
+.nav-responsive {
+  position: sticky; }
+
+.nav-container {
+  background-color: white; }
+
+.navbar-nav .nav-item .nav-link {
+  font-size: 38px;
+  color: white; }
+
+@media (min-width: 1024px) {
+  .navbar-nav .nav-item .nav-link {
+    font-size: 20px;
+    color: #d53a27; } }
+
+.icon-1 {
+  background-image: url(../../../../sites/default/files/menu-button.svg); }
+
+.icon-2 {
+  background-image: url(../../../../sites/default/files/Close-Nav.svg);
+  display: none;
+  width: 1.5em;
+  height: 1.5em; }
+
+.filter-white {
+  filter: contrast(0) brightness(5); }
+
 /**
   * Globals.
   */

@@ -56,19 +56,20 @@ set footer_classes = ' ' ~
   (b5_footer_bg_schema != 'none' ? " bg-#{b5_footer_bg_schema}" : ' ')
 %}
 
-<header class="position-sticky z-3 top-0">
+<header class="nav-responsive z-3 top-0">
   {{ page.header }}
 
   {% if page.nav_branding or page.nav_main or page.nav_additional %}
-  <nav class="nav-container bg-white nav-border {{ nav_classes }}">
-    <div class="{{ b5_top_container }} d-flex">
+  <nav class="bg-white nav-container nav-border {{ nav_classes }}">
+    <div class="nav-bg {{ b5_top_container }} d-flex">
       {{ page.nav_branding }}
 
       {% if page.nav_main or page.nav_additional %}
         <button class="navbar-toggler collapsed text-primary" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                 aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon icon-1"></span>
+          <span class="navbar-toggler-icon icon-2"></span>
         </button>
 
         <div class="collapse navbar-collapse justify-content-md-end" id="navbarSupportedContent">

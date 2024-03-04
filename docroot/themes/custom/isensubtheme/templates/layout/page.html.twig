@@ -45,8 +45,7 @@
 {%
 set nav_classes = 'navbar navbar-expand-lg' ~
   (b5_navbar_schema != 'none' ? " navbar-#{b5_navbar_schema}" : ' ') ~
-  (b5_navbar_schema != 'none' ? (b5_navbar_schema == 'dark' ? ' text-light' : ' text-dark' ) : ' ') ~
-  (b5_navbar_bg_schema != 'none' ? " bg-#{b5_navbar_bg_schema}" : ' ')
+  (b5_navbar_schema != 'none' ? (b5_navbar_schema == 'dark' ? ' text-light' : ' text-dark' ) : ' ') 
 %}
 
 {%
@@ -60,8 +59,8 @@ set footer_classes = ' ' ~
   {{ page.header }}
 
   {% if page.nav_branding or page.nav_main or page.nav_additional %}
-  <nav class="bg-white nav-container nav-border {{ nav_classes }}">
-    <div class="nav-bg {{ b5_top_container }} d-flex">
+  <nav class="bg-white-nav nav-container nav-border {{ nav_classes }}">
+    <div class="nav-bg container-fluid d-flex">
       {{ page.nav_branding }}
 
       {% if page.nav_main or page.nav_additional %}

@@ -54,7 +54,7 @@
     %}
     {%
       set link_class = [
-        menu_level == 0 ? 'nav-link text-align-right',
+        menu_level == 0 ? 'nav-link text-align-left nav-link-item',
         item.in_active_trail ? 'active',
         menu_level == 0 and (item.is_expanded or item.is_collapsed) ? 'dropdown-toggle',
         menu_level > 0 ? 'dropdown-item',
@@ -80,14 +80,14 @@
   <script>
     $(document).ready(function() {
       $('.navbar-toggler').click(function() {
-        $('.nav-item').toggleClass('slide-in');
-        $('.nav-responsive').toggleClass('h-100');
+        $('.nav-link-item').toggleClass('slide-in');
+        $('.nav-responsive').toggleClass('h-100-nav');
         $('.nav-responsive').toggleClass('w-100');
         $('.nav-responsive').toggleClass('position-fixed');
-        $('.nav-container').toggleClass('h-100');
-        $('.nav-container').toggleClass('bg-white');
+        $('.nav-container').toggleClass('h-100-nav');
+        $('.nav-container').toggleClass('bg-dark-nav');
         $('.nav-bg').toggleClass('align-items-start');
-        $('.nav-bg').toggleClass('h-100'); 
+        $('.nav-bg').toggleClass('h-100-nav'); 
         $('.icon-1').toggleClass('d-none');                                                  
         $('.icon-2').toggleClass('d-inline-block');
         $('.nav-image').toggleClass('filter-white');                                  

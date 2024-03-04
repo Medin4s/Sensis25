@@ -1,3 +1,7 @@
 .container, .container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl{
   --bs-gutter-x: 1.5rem;
 }
+
+.container-fluid{
+  padding: 0px 40px;
+}

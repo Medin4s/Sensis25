@@ -1,16 +1,16 @@
 _core:
   default_config_hash: 3qY7PfXvJcCtBPQpb9FxxBgXtUGFzx8JVakfWiNNYzw
 favicon:
-  mimetype: image/vnd.microsoft.icon
-  path: ''
+  mimetype: image/png
+  path: 'public://logosensis1.png'
   url: ''
-  use_default: true
+  use_default: false
 features:
   comment_user_picture: true
   comment_user_verification: true
   favicon: true
   node_user_picture: false
 logo:
-  path: 'public://2b6f04c9-2d7e-4914-8131-03aa9ecce60d_0.png'
+  path: 'public://logosensis-removebg-preview_0.png'
   url: null
   use_default: false

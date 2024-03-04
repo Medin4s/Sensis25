@@ -1,6 +1,6 @@
 favicon:
   mimetype: image/png
-  path: 'public://sensis.png'
+  path: 'public://logosensis-removebg-preview_3.png'
   use_default: false
 features:
   comment_user_picture: true

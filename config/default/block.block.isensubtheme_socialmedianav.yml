@@ -1,0 +1,25 @@
+uuid: e0cc039b-639f-4bee-95d0-df28d9782ec3
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:social_media_nav:deb44a68-57a1-4218-b026-8ad26e25c926'
+  module:
+    - block_content
+  theme:
+    - isensubtheme
+id: isensubtheme_socialmedianav
+theme: isensubtheme
+region: nav_additional
+weight: 0
+provider: null
+plugin: 'block_content:deb44a68-57a1-4218-b026-8ad26e25c926'
+settings:
+  id: 'block_content:deb44a68-57a1-4218-b026-8ad26e25c926'
+  label: 'Social media nav'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

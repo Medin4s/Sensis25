@@ -1,0 +1,29 @@
+uuid: 32cbfde8-c6b7-4c09-8dfd-226352fd8444
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.social_media_nav
+    - field.storage.block_content.field_facebook_icon
+    - media.type.image
+id: block_content.social_media_nav.field_facebook_icon
+field_name: field_facebook_icon
+entity_type: block_content
+bundle: social_media_nav
+label: 'Facebook icon'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

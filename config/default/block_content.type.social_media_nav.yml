@@ -1,0 +1,8 @@
+uuid: 63a76d3b-0a35-4a11-9806-7d25cb1aaac1
+langcode: en
+status: true
+dependencies: {  }
+id: social_media_nav
+label: 'Social media nav'
+revision: 0
+description: ''

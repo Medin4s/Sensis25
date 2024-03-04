@@ -1,0 +1,90 @@
+uuid: a4229465-000b-4334-a949-f32a4b9bc171
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.social_media_nav
+    - field.field.block_content.social_media_nav.field_facebook_icon
+    - field.field.block_content.social_media_nav.field_instagram_icon
+    - field.field.block_content.social_media_nav.field_linkedin_icon
+    - field.field.block_content.social_media_nav.field_tik_tok_icon
+    - field.field.block_content.social_media_nav.field_x_icon
+  module:
+    - linked_field
+id: block_content.social_media_nav.default
+targetEntityType: block_content
+bundle: social_media_nav
+mode: default
+content:
+  field_facebook_icon:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings:
+      linked_field:
+        linked: '1'
+        type: custom
+        destination: 'https://www.facebook.com/sensisagency'
+        advanced: {  }
+    weight: 0
+    region: content
+  field_instagram_icon:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings:
+      linked_field:
+        linked: '1'
+        type: custom
+        destination: 'https://www.instagram.com/sensisagency/'
+        advanced: {  }
+    weight: 2
+    region: content
+  field_linkedin_icon:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings:
+      linked_field:
+        linked: '1'
+        type: custom
+        destination: 'https://www.linkedin.com/company/sensisagency'
+        advanced: {  }
+    weight: 3
+    region: content
+  field_tik_tok_icon:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings:
+      linked_field:
+        linked: '1'
+        type: custom
+        destination: 'https://www.tiktok.com/@sensisagency'
+        advanced: {  }
+    weight: 4
+    region: content
+  field_x_icon:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings:
+      linked_field:
+        linked: '1'
+        type: custom
+        destination: 'https://twitter.com/sensisagency'
+        advanced: {  }
+    weight: 1
+    region: content
+hidden:
+  langcode: true

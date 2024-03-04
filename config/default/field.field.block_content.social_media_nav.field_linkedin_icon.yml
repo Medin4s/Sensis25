@@ -1,0 +1,29 @@
+uuid: d1888c25-a8f1-49d3-91ce-9a7acf100dc6
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.social_media_nav
+    - field.storage.block_content.field_linkedin_icon
+    - media.type.image
+id: block_content.social_media_nav.field_linkedin_icon
+field_name: field_linkedin_icon
+entity_type: block_content
+bundle: social_media_nav
+label: 'linkedin icon'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

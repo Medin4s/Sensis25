@@ -1,0 +1,29 @@
+uuid: f686255f-6cca-4f43-9f99-b283c1a5f453
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.social_media_nav
+    - field.storage.block_content.field_tik_tok_icon
+    - media.type.image
+id: block_content.social_media_nav.field_tik_tok_icon
+field_name: field_tik_tok_icon
+entity_type: block_content
+bundle: social_media_nav
+label: 'Tik tok icon'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: document
+field_type: entity_reference

@@ -42,6 +42,12 @@
   }
 }
 
+
+.social-media{
+  margin-top: 50px;
+  display: flex;
+}
+
 @include media-breakpoint-up(lg){
   .navbar-nav{
     .nav-item{
@@ -51,7 +57,9 @@
       }
     }
   }
-  
+  .social-media{
+    display: none;
+  }
 }
 .icon-1{
   background-image: url(../../../../sites/default/files/menu-button.svg);
@@ -66,4 +74,12 @@
 
 .filter-white{
   filter: contrast(0) brightness(5);
+}
+
+.nav-icon{
+  width: 20px;
+}
+
+.social-media > :nth-child(n+2){
+  margin-left: 15px;
 }

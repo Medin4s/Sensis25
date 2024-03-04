@@ -9291,10 +9291,16 @@ textarea.form-control-lg {
   font-size: 38px;
   color: white; }
 
+.social-media {
+  margin-top: 50px;
+  display: flex; }
+
 @media (min-width: 1024px) {
   .navbar-nav .nav-item .nav-link {
     font-size: 20px;
-    color: #d53a27; } }
+    color: #d53a27; }
+  .social-media {
+    display: none; } }
 
 .icon-1 {
   background-image: url(../../../../sites/default/files/menu-button.svg); }
@@ -9307,6 +9313,12 @@ textarea.form-control-lg {
 
 .filter-white {
   filter: contrast(0) brightness(5); }
+
+.nav-icon {
+  width: 20px; }
+
+.social-media > :nth-child(n+2) {
+  margin-left: 15px; }
 
 /**
   * Globals.

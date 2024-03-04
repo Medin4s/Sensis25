@@ -13,6 +13,7 @@
 {%
 set classes = [
   style_name ? 'image-style-' ~ style_name|clean_class,
+  'nav-icon',
 ]
 %}
 <img{{ attributes.addClass(classes) }} />
